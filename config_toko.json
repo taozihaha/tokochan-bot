@@ -1,0 +1,54 @@
+{
+  "napcat": {
+    "http_token": "YOUR_HTTP_TOKEN_HERE",
+    "ws_token": "YOUR_WS_TOKEN_HERE",
+    "http_host": "127.0.0.1",
+    "http_port": 3000,
+    "ws_host": "127.0.0.1",
+    "ws_port": 3001
+  },
+  "paths": {
+    "nsy_base": "D:/女声优/",
+    "data_base": "D:/tokochan/",
+    "temp_base": "D:/",
+    "memory_dir": "群记忆文件",
+    "admin_file": "data/admin.txt",
+    "inventor_file": "data/inventor.txt",
+    "system_prompt": "data/透子本身.txt",
+    "world_prompt": "data/二次元世界.txt",
+    "nickname_map": "data/外号对应.txt"
+  },
+  "temp": {
+    "video_temp": "temp_video.mp4",
+    "video_output": "temp_video1.mp4",
+    "image_cleanup_delay": 30
+  },
+  "bot": {
+    "self_qq": 3227188710,
+    "poke_replies": [
+      "你戳我干嘛！",
+      "别戳我，rui会生气的啦！",
+      "好疼啊，别戳了",
+      "再戳我报警了",
+      "🥺"
+    ],
+    "help_text": "支持的指令有:\n/extract_video（空格）网址，可提取b站视频\n/add_nsy_picture（空格）女声优名字，可以将回复的图片加入女声优文件夹\n女声优名字或部分外号，可获得女声优随机图片一张\n/show_nsy_list 可获得已收录的女声优列表\n/add_nickname （空格）外号（空格）正式名字，可以添加女声优外号\n/delete_nickname （空格）外号，管理员可以删除女声优外号\n/get_nickname(空格)女声优，可以查询女声优当前外号\n/publish_nsy（空格）女声优名 可以将私有女声优图公开"
+  },
+  "ai": {
+    "deepseek_api_key": "YOUR_DEEPSEEK_API_KEY_HERE",
+    "deepseek_base_url": "https://api.deepseek.com",
+    "chat_model": "deepseek-chat",
+    "think_model": "deepseek-reasoner",
+    "max_history": 5,
+    "temperature": 1.216
+  },
+  "groups": {
+    "refresh_interval": 300
+  },
+  "features": {
+    "ai_enabled": true,
+    "nsy_enabled": true,
+    "video_enabled": true,
+    "admin_enabled": true
+  }
+}
